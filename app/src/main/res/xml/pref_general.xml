@@ -1,0 +1,23 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="send_location"
+        android:summary="When a blue tooth signal is received, send SMS alert with map location link"
+        android:title="Enable sending map location" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="HC-06"
+        android:inputType="text"
+        android:key="device_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Device Name" />
+
+
+
+
+
+</PreferenceScreen>
